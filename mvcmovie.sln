@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcmovie", "mvcmovie\mvcmovie.csproj", "{00535578-25F1-4A14-A78E-79291F4894C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcmovie.Tests", "mvcmovie.Tests\mvcmovie.Tests.csproj", "{391942AA-A48C-4224-A312-1DC5CA1CFCD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7D41E9E8-4DD7-4EDE-A0AB-C189A3F93804}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A122E126-08A6-4451-A7F2-F4831BEB4BAC}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\mvcmovie-WAWS-dev.json = PublishScripts\Configurations\mvcmovie-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00535578-25F1-4A14-A78E-79291F4894C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00535578-25F1-4A14-A78E-79291F4894C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00535578-25F1-4A14-A78E-79291F4894C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00535578-25F1-4A14-A78E-79291F4894C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391942AA-A48C-4224-A312-1DC5CA1CFCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391942AA-A48C-4224-A312-1DC5CA1CFCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391942AA-A48C-4224-A312-1DC5CA1CFCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391942AA-A48C-4224-A312-1DC5CA1CFCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A122E126-08A6-4451-A7F2-F4831BEB4BAC} = {7D41E9E8-4DD7-4EDE-A0AB-C189A3F93804}
+	EndGlobalSection
+EndGlobal
